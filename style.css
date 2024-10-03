@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
     display: flex;
+    flex-direction: row;
 }
 .nav-div{
     background-color: #A41D21;
