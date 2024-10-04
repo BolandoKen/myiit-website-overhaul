@@ -1,13 +1,17 @@
 html{
+    margin: 0%;
+    padding: 0%;
     scroll-behavior: smooth;
     display: flex;
     flex-direction: row;
 }
 .nav-div{
+    display: flex;
+    flex-direction: column;
     background-color: #A41D21;
     position: fixed;
     width: 252px;
-    height: 832px;
+    height: 100vh;
     left: 0px;
     top: 0px;
 }
@@ -17,10 +21,25 @@ html{
 }
 #myIITLogo{
     font-weight: bold;
-    position: absolute;
-    width: 78px;
-    height: 36px;
-    left: 20px;
-    top: 13px;
+    width: 100%;
+    height: 40px;
+   padding-left: 20px;
+    padding-top: 20px;
     font-size: 30px;
+}
+.tools-div{
+    display:flex;
+    flex-direction: column;
+    padding-top: 50px;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+.tools-div a{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    
 }
