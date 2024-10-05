@@ -1,9 +1,9 @@
-html{
+.main-div{
     margin: 0%;
     padding: 0%;
-    scroll-behavior: smooth;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: black;
 }
 .nav-div{
     display: flex;
@@ -48,4 +48,9 @@ html{
 .tools-div a:hover{
     background-color: #86171b;
     font-size: 21px;
+}
+.content-div{
+    width: 100%;
+    height: 100%;
+
 }
