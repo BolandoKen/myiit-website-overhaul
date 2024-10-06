@@ -1,71 +1,91 @@
-
-html, body{
+html, body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
     background-color: white;
 }
-html{
+
+html {
     display: flex;
     flex-direction: row;
 }
-.nav-div{
+
+.nav-div {
     display: flex;
     flex-direction: column;
     background-color: #A41D21;
     position: fixed;
     width: 252px;
     height: 100vh;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
 }
-.nav-div a{
+
+.nav-div a {
     font-family: "Inter", sans-serif;
     color: white;
+    text-decoration: none;
 }
-.logo-div{
+
+.logo-div {
     padding-top: 20px;
-}
-#myIITLogo{
-    font-weight: bold;
-    width: 100%;
-    height: 40px;
     padding-left: 20px;
+}
+
+#myIITLogo {
+    font-weight: bold;
     font-size: 28px;
 }
-.tools-div{
-    height: 100px;
+
+.tools-div {
+    margin-top: 40px;
+    flex-grow: 1;
 }
-.tools-div a{
-    padding-bottom: 20px;
-    padding-top: 20px;
+
+.tools-div a {
+    padding: 20px;
     display: flex;
     align-items: center;
-    padding-left: 20px;
-    text-decoration: none;
     font-family: "Inter", sans-serif;
     font-size: 20px;
-    transition: 0.5s;
+    transition: font-size 0.5s;
 }
-.tools-div a:hover{
+
+.tools-div a:hover {
     background-color: #86171b;
     font-size: 21px;
 }
-.app-div p{
-    color: black;
-    background-color: yellow;
-}
-.content-div{
-    width: 100%;
+
+.content-div {
+    margin-left: 252px;
+    width: calc(100% - 252px);
     height: 100%;
     background-color: white;
+    padding: 0;
 }
-.annoucements-div{
+
+.content-div > div {
+    padding: 0;
+}
+
+.content-div p, .app-div p {
+    color: black;
+}
+
+.app-div p {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.annoucements-div {
     height: 200px;
     width: 100%;
     background-color: blue;
 }
-.survey-div{
+
+.survey-div {
+    height: 200px;
+    width: 100%;
     background-color: green;
 }
