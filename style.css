@@ -1,9 +1,14 @@
-.main-div{
-    margin: 0%;
-    padding: 0%;
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+html{
     display: flex;
-    flex-direction: column;
-    background-color: black;
+    flex-direction: row;
 }
 .nav-div{
     display: flex;
@@ -30,9 +35,7 @@
     font-size: 28px;
 }
 .tools-div{
-    padding-top: 60px;
-    width: 100%;
-    height: 100%;
+    height: 100px;
 }
 .tools-div a{
     padding-bottom: 20px;
@@ -49,8 +52,20 @@
     background-color: #86171b;
     font-size: 21px;
 }
+.app-div p{
+    color: black;
+    background-color: yellow;
+}
 .content-div{
     width: 100%;
     height: 100%;
-
+    background-color: white;
+}
+.annoucements-div{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+}
+.survey-div{
+    background-color: green;
 }
