@@ -82,6 +82,7 @@ html {
 }
 .annoucements-div .box-div{
     display: flex;
+    width: 100vh;
     flex-direction: row;
 }
 .annoucements-div .box{
@@ -97,6 +98,7 @@ margin: 20px;
 }
 .survey-div .box-div{
     display: flex;
+    width: 100vh;
     flex-direction: row;
 }
 .survey-div .box{
