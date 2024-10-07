@@ -44,7 +44,7 @@ html {
 }
 
 .tools-div a {
-    padding: 20px;
+    padding: 28px;
     display: flex;
     align-items: center;
     font-family: "Inter", sans-serif;
@@ -62,30 +62,47 @@ html {
     width: calc(100% - 252px);
     height: 100%;
     background-color: white;
-    padding: 0;
 }
-
-.content-div > div {
-    padding: 0;
-}
-
-.content-div p, .app-div p {
+.content-div p{
     color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
 }
-
-.app-div p {
-    background-color: yellow;
-    padding: 10px;
+.navtop-div{
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
-
 .annoucements-div {
-    height: 200px;
+    height: 280px;
     width: 100%;
-    background-color: blue;
 }
-
+.annoucements-div .box-div{
+    display: flex;
+    flex-direction: row;
+}
+.annoucements-div .box{
+width: 232px;
+height: 135px;
+background: #333333;
+border-radius: 20px;
+margin: 20px;
+}
 .survey-div {
-    height: 200px;
+    height: 400px;
     width: 100%;
-    background-color: green;
+}
+.survey-div .box-div{
+    display: flex;
+    flex-direction: row;
+}
+.survey-div .box{
+width: 358px;
+height: 205.82px;
+background: #333333;
+border-radius: 20px;
+margin: 20px;
 }
