@@ -82,11 +82,16 @@ html {
     text-decoration: none;
     font-family: "Inter", sans-serif;
     color: black;
+    font-size: 20px;
 }
-.navtop-div img{
+.navtop-div #profilePic{
     width: 40px;
     border-radius: 100%;
     background-color: #86171b;
+    margin-left: 8px;
+}
+.navtop-div #toolsIcon{
+    width: 40px;
     margin-left: 8px;
 }
 .annoucements-div {
