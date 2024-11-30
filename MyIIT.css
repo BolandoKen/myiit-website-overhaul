@@ -49,9 +49,8 @@ html {
     background-color: #86171b;
     font-size: 21px;
 }
-.herosection-dv ima{
-    height: 100%;
-    width: 100%;
+.herosection-div img{
+    width: 100vh;
 }
 .content-div {
     display: flex;
